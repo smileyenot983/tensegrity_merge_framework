@@ -77,6 +77,12 @@ for k =1:size(shift_directions,2)
     end
 end
 
+merge_matrix.C = C_total;
+merge_matrix.R = R_total;
+
+filename = "merged_structs/merge_matrix";
+save(filename,"merge_matrix");
+
 
 %%
 % Some tests to check if code is correct
