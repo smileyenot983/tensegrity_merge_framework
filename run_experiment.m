@@ -33,7 +33,7 @@ switch grid_structure
 end
 
 % plotting grid structure
-scatter3(points(1,:),points(2,:),points(3,:));
+% scatter3(points(1,:),points(2,:),points(3,:));
 
 
 %%
@@ -235,7 +235,7 @@ disp(sum(P(:)));
 % end
 
 %% Plotting lengths of all connections:
-plot_results=true;
+plot_results=false;
 if plot_results==true
     fprintf("_____________________________________________\n")
     disp("Strut lengths: ")
